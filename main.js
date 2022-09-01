@@ -101,3 +101,12 @@ let calculation =() =>{
 };
 
 calculation();
+
+let submit = document.getElementById("submit");
+
+
+document.getElementById("submit").addEventListener("click", function(){
+    Swal.fire({
+        title: "Gracias"
+    })
+});
